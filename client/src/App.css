@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+html {
+  --background: #fafafb;
+  --background2: #fff;
+  --background3: #f6f8fb;
+  --text1: #4f4f4f;
+  --text2: #828282;
+  --text3: #bdbdbd;
+  --border: #97bef4;
+  --primary: #2f80ed;
+  --primaryDarker: #2a5ea1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--background);
+}
+
+.btn-primary {
+  padding: 8px 16px;
+  color: #fff;
+  background: var(--primary);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--primaryDarker);
+}
+
+.cover {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadImage {
+  width: 402px;
+  box-sizing: border-box;
+  background: var(--background2);
+  padding: 36px 32px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  color: var(--text1);
+}
+
+.uploadImage h3 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.uploadImage p:first-child {
+  color: var(--text2);
+}
+
+.uploadImage p {
+  color: var(--text3);
+  text-align: center;
+  font-size: 12px;
+}
+
+.uploadImage .mid {
+  position: relative;
+  width: 100%;
+  background: var(--background3);
+  padding: 35px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px dashed var(--border);
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.active {
+  opacity: 0.3;
+  border: 2px dashed var(--primaryDarker) !important;
+}
