@@ -42,7 +42,7 @@ const UploadImage = ({ setPage }) => {
           setIds([...ids, res.data.id]);
           setLoader(null);
         };
-        setTimeout(() => uploadImage(), 2000);
+        uploadImage();
       } else {
         alert("Only images can be uploaded");
       }

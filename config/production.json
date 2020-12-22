@@ -1,5 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://leo:leo222@chatter.ssxwy.mongodb.net/chatApp?retryWrites=true&w=majority",
-    "jwtSecret": "secret"
+  "mongoURI": "mongodb+srv://leo:leo_1234@imageuploader.gn9bu.mongodb.net/imageUploader?retryWrites=true&w=majority"
   }
   
