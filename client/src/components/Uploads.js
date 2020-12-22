@@ -24,14 +24,15 @@ const Uploads = ({ setPage }) => {
         <div>
           {ids.map((id) => (
             <div className="item">
-              <img
-                className="image"
-                src={`http://localhost:5000/image/${id}`}
-              />
-              <p>{`http://localhost:5000/image/${id}`}</p>
+              <img className="image" src={`/image/${id}`} />
+              <p>{`https://evening-wildwood-04625.herokuapp.com/image/${id}`}</p>
               <button
                 className="btn-primary btn-1"
-                onClick={() => copyText(`http://localhost:5000/image/${id}`)}
+                onClick={() =>
+                  copyText(
+                    `https://evening-wildwood-04625.herokuapp.com/image/${id}`
+                  )
+                }
               >
                 Copy
               </button>

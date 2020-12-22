@@ -73,7 +73,7 @@ const UploadImage = ({ setPage }) => {
   };
 
   const copyText = () => {
-    var link = `http://localhost:5000/image/${id}`;
+    var link = `/image/${id}`;
     copy(link);
     alert("Link copied to clipboard");
   };
@@ -132,7 +132,7 @@ const UploadImage = ({ setPage }) => {
             </div>
           </div>
           <div className="link">
-            <p id="link">{`http://localhost:5000/image/${id}`}</p>
+            <p id="link">{`https://evening-wildwood-04625.herokuapp.com/image/${id}`}</p>
             <button className="btn-primary" onClick={copyText}>
               Copy Link
             </button>
