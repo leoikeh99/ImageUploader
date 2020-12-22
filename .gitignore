@@ -25,3 +25,6 @@ yarn-error.log*
 # Local Netlify folder
 .netlify
 /netlify.toml 
+
+/config/default.json
+/config/production.json
