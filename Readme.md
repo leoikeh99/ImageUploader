@@ -34,5 +34,7 @@
 
 ## Development
 
+- Add a config folder containing a default.json file with a mongoURI
 - Install dependencies `npm install`
-- Run application `npm start`
+- Install client dependencies `npm run clientinstall`
+- Run application `npm run dev`
