@@ -12,11 +12,11 @@
 
 [Image uploader app live](https://evening-wildwood-04625.herokuapp.com/)
 
-### Light Mode
+### Select image
 
 ![Select image](/screenshots/im1.PNG)
 
-### Dark Mode
+### Upload successfull
 
 ![Upload successfull](/screenshots/im2.PNG)
 
