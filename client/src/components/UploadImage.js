@@ -73,7 +73,7 @@ const UploadImage = ({ setPage }) => {
   };
 
   const copyText = () => {
-    var link = `/image/${id}`;
+    var link = `https://evening-wildwood-04625.herokuapp.com/image/${id}`;
     copy(link);
     alert("Link copied to clipboard");
   };
